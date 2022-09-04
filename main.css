@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: url("https://img.wallpapersafari.com/desktop/728/410/44/60/8KQSXi.png"); 
+    filter: drop-shadow(50);
+    position: relative;
+}
+.h{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(186, 186, 186);
+}
+.h h1{
+    font-size: 72px;
+    margin-bottom: -10px;
+}
+.h h2{
+    font-size: 48px;
+}
+.h h3{
+    font-size: 36px;
+}
+.hr1{
+    position: absolute;
+    top: 195px;
+    width: 200px;
+    color: dimgray;
+    left: 20px;
+}
+.hr2{
+    position: absolute;
+    top: 200px;
+    width: 150px;
+    color: dimgray;
+    left: 69px;
+    margin-top: 5px;
+}
+.p {
+    width: 700px;
+    height: 200px;
+    color: #808080;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    left: 360px;
+    text-indent: 25px;
+    top: 245px;
+}
+.islamicimg{
+    width: 260px;
+    height: 230px;
+    position: absolute;
+    right: 10px;
+    bottom: 540px;
+}
+.tasbeh{
+    width: 170px;
+    height: 190px;
+    border:1px;
+    position: absolute;
+    top: 54%;
+    left: 680px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background: #d5d5d5;
+    -webkit-box-shadow: 12px 12px 24px #6f6f6f, -12px -12px 24px #ffffff;
+    box-shadow: 12px 12px 24px #6f6f6f, -12px -12px 24px #ffffff;    
+}
+.ekran{
+    width: 60%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    height: 30px;
+    caret-color: white;
+    border-radius: 20px;
+    border: 1px solid floralwhite;
+    text-align: center;
+    font-size: 34px;
+}
+.tugma{
+    position: absolute;
+    top: 42%;
+    left: 38%;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: lightslategray;
+    cursor: pointer;
+    border: 1px solid lightslategrey;
+}
+.nol{
+    position: absolute;
+    top: 74%;
+    left: 41%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: slateblue;
+    border: 1px solid lightsteelblue;
+    cursor: pointer;
+}
